@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6BBA7AE23743DC100DF94EE /* Sorting Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BBA7AD23743DC100DF94EE /* Sorting Test.swift */; };
+		B6BBA7B023743F1600DF94EE /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BBA7AF23743F1600DF94EE /* Sorting.swift */; };
+		B6BBA7B123743F4D00DF94EE /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BBA7AF23743F1600DF94EE /* Sorting.swift */; };
 		B6CF372423718D15002115D9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF372323718D15002115D9 /* main.swift */; };
 		B6CF373123719244002115D9 /* Standard_Algorithmstests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF373023719244002115D9 /* Standard_Algorithmstests.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B6BBA7AD23743DC100DF94EE /* Sorting Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sorting Test.swift"; sourceTree = "<group>"; };
+		B6BBA7AF23743F1600DF94EE /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
 		B6CF372023718D15002115D9 /* Standard Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Standard Algorithms"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CF372323718D15002115D9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B6CF372E23719244002115D9 /* Standard Algorithmstests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Standard Algorithmstests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				B6CF372323718D15002115D9 /* main.swift */,
+				B6BBA7AF23743F1600DF94EE /* Sorting.swift */,
 			);
 			path = "Standard Algorithms";
 			sourceTree = "<group>";
@@ -80,6 +86,7 @@
 			children = (
 				B6CF373023719244002115D9 /* Standard_Algorithmstests.swift */,
 				B6CF373223719244002115D9 /* Info.plist */,
+				B6BBA7AD23743DC100DF94EE /* Sorting Test.swift */,
 			);
 			path = "Standard Algorithmstests";
 			sourceTree = "<group>";
@@ -174,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6CF372423718D15002115D9 /* main.swift in Sources */,
+				B6BBA7B023743F1600DF94EE /* Sorting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,7 +189,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6BBA7B123743F4D00DF94EE /* Sorting.swift in Sources */,
 				B6CF373123719244002115D9 /* Standard_Algorithmstests.swift in Sources */,
+				B6BBA7AE23743DC100DF94EE /* Sorting Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
