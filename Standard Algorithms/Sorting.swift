@@ -62,4 +62,53 @@ class Sorting {
         }
         return(final)
     }
+    func quickSortOf(operating: [Int]) -> [Int] {
+      let pivot = operating[0]
+      var left = [Int]()
+      var right = [Int]()
+      var sorted = [Int]()
+      sorted.append(pivot)
+      for i in 1..<operating.count {
+        let item = operating[i]
+        if item < pivot {
+          left.append(item)
+        } else {
+          right.append(item)
+        }
+      }
+      if left.count > 0{
+        let handover: [Int] = quickSortOf(operating: left)
+        sorted.insert(contentsOf: handover, at: 0)
+      }
+      if right.count > 0{
+        let handover: [Int] = quickSortOf(operating: right)
+        sorted.append(contentsOf:handover)
+      }
+
+      return(sorted)
+    }
+    func insertionSort(sortTime: inout[Int]) {
+      sortTime.insert(0, at: 0)
+      sortTime.insert(0, at: 0)
+      for i in 3..<sortTime.count {
+        var comparison = i - 1
+        let current = sortTime[i]
+        var done = false
+        while done != true {
+          if current > sortTime[comparison] {
+            sortTime.remove(at: i)
+            sortTime.insert(current, at: (comparison+1))
+            done = true
+          }
+
+          if (comparison == 0) {
+            done = true
+          }
+          comparison = comparison - 1
+        }
+      }
+      sortTime.remove(at: 0)
+      sortTime.remove(at: 0)
+    }
+
 }

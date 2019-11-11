@@ -43,9 +43,9 @@ class Sorting_Test: XCTestCase {
         //act
         let actual = sorting.mergeSort(input: testCases[0].input)
         let actual2 = sorting.mergeSort(input: testCases[1].input)
+        //assert
         XCTAssertEqual(actual, testCases[0].expected)
         XCTAssertEqual(actual2, testCases[1].expected)
-        //assert
     }
     func testMergeAccuratelyMergesTwoIntegerArrays(){
         //arrange
@@ -57,5 +57,17 @@ class Sorting_Test: XCTestCase {
         //assert
         XCTAssertEqual(actual, testCases[0].expected)
     
+    }
+    func testThatQuickSortAccuratelySortsIntegerArrays(){
+        //arrange
+        let sorting = Sorting()
+        let testCases = [(input: [10,3,2,7,1], expected:[1,2,3,7,10]),
+                         (input: [456,6346,54,8,1],expected:[1,8,54,456,6346])]
+        //act
+        let actual = sorting.quickSortOf(operating: testCases[0].input)
+        let actual2 = sorting.quickSortOf(operating: testCases[1].input)
+        //assert
+        XCTAssertEqual(actual, testCases[0].expected)
+        XCTAssertEqual(actual2, testCases[1].expected)
     }
 }
