@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B674CCEE237AA56D007C7BB2 /* Searches.swift in Sources */ = {isa = PBXBuildFile; fileRef = B674CCED237AA56D007C7BB2 /* Searches.swift */; };
+		B674CCF0237AA66A007C7BB2 /* Search Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B674CCEF237AA66A007C7BB2 /* Search Test.swift */; };
 		B6BBA7AE23743DC100DF94EE /* Sorting Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BBA7AD23743DC100DF94EE /* Sorting Test.swift */; };
 		B6BBA7B023743F1600DF94EE /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BBA7AF23743F1600DF94EE /* Sorting.swift */; };
 		B6BBA7B123743F4D00DF94EE /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BBA7AF23743F1600DF94EE /* Sorting.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B674CCED237AA56D007C7BB2 /* Searches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searches.swift; sourceTree = "<group>"; };
+		B674CCEF237AA66A007C7BB2 /* Search Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search Test.swift"; sourceTree = "<group>"; };
 		B6BBA7AD23743DC100DF94EE /* Sorting Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sorting Test.swift"; sourceTree = "<group>"; };
 		B6BBA7AF23743F1600DF94EE /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
 		B6CF372023718D15002115D9 /* Standard Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Standard Algorithms"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +81,7 @@
 			children = (
 				B6CF372323718D15002115D9 /* main.swift */,
 				B6BBA7AF23743F1600DF94EE /* Sorting.swift */,
+				B674CCED237AA56D007C7BB2 /* Searches.swift */,
 			);
 			path = "Standard Algorithms";
 			sourceTree = "<group>";
@@ -87,6 +92,7 @@
 				B6CF373023719244002115D9 /* Standard_Algorithmstests.swift */,
 				B6CF373223719244002115D9 /* Info.plist */,
 				B6BBA7AD23743DC100DF94EE /* Sorting Test.swift */,
+				B674CCEF237AA66A007C7BB2 /* Search Test.swift */,
 			);
 			path = "Standard Algorithmstests";
 			sourceTree = "<group>";
@@ -182,6 +188,7 @@
 			files = (
 				B6CF372423718D15002115D9 /* main.swift in Sources */,
 				B6BBA7B023743F1600DF94EE /* Sorting.swift in Sources */,
+				B674CCEE237AA56D007C7BB2 /* Searches.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +198,7 @@
 			files = (
 				B6BBA7B123743F4D00DF94EE /* Sorting.swift in Sources */,
 				B6CF373123719244002115D9 /* Standard_Algorithmstests.swift in Sources */,
+				B674CCF0237AA66A007C7BB2 /* Search Test.swift in Sources */,
 				B6BBA7AE23743DC100DF94EE /* Sorting Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

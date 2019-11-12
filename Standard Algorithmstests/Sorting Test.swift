@@ -70,4 +70,16 @@ class Sorting_Test: XCTestCase {
         XCTAssertEqual(actual, testCases[0].expected)
         XCTAssertEqual(actual2, testCases[1].expected)
     }
+    func testThatInsertionSortAccuratelySortsIntegerArrays(){
+        //arrange
+        let sorting = Sorting()
+        var testCases = [(input: [10,3,2,7,1], expected:[1,2,3,7,10]),
+                         (input: [456,6346,54,8,1],expected:[1,8,54,456,6346])]
+        //act
+        sorting.insertionSort(sortTime: &testCases[0].input)
+        sorting.insertionSort(sortTime: &testCases[1].input)
+        //assert
+        XCTAssertEqual(testCases[0].input, testCases[0].expected)
+        XCTAssertEqual(testCases[1].input, testCases[1].expected)
+    }
 }

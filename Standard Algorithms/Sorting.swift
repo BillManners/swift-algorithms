@@ -54,7 +54,7 @@ class Sorting {
     func mergeSort(input: [Int]) -> [Int]{
         var final = input
         if input.count > 1{
-            var left = [Int](input[0...((input.count/2)-1)] ?? [69])
+            var left = [Int](input[0...((input.count/2)-1)])
             var right = [Int](input[(input.count/2)...(input.count-1)])
             left = mergeSort(input: left)
             right = mergeSort(input: right)
