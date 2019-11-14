@@ -38,4 +38,14 @@ class Unknown_Test: XCTestCase {
         //assert
         XCTAssertEqual(result, answer)
     }
+    func testThatTaskFindsSecondSmallestInAnArray () {
+        //arrange
+        let unknown = Unknown()
+        let test = [13,65,75,3,6]
+        let answer = 6
+        //act
+        let result = secondSmallest(input : test)
+        //assert
+        XCTAssertEqual(result, answer)
+    }
 }

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Unknown (){
+class Unknown{
     func firstAndLast (input : [Int]) -> Int {
             var final = 0
             if input.count > 0 {
@@ -34,10 +34,17 @@ class Unknown (){
                         modec = currentc
                         mode = current
                     }
-                    current = input[i+1]
-                    currentc = 0
+                    current = input[i]
+                    currentc = 1
                 }
             }
+            if currentc > modec{
+                modec = currentc
+                mode = current
+            }
             return(mode)
+    }
+    func secondSmallest (input : [Int]) -> Int {
+        
     }
 }
