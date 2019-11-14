@@ -11,6 +11,8 @@
 		B674CCF0237AA66A007C7BB2 /* Search Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B674CCEF237AA66A007C7BB2 /* Search Test.swift */; };
 		B674CCF2237D76C8007C7BB2 /* Unknown.swift in Sources */ = {isa = PBXBuildFile; fileRef = B674CCF1237D76C8007C7BB2 /* Unknown.swift */; };
 		B674CCF4237D76E0007C7BB2 /* Unknown Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B674CCF3237D76E0007C7BB2 /* Unknown Test.swift */; };
+		B674CCF5237D7DBE007C7BB2 /* Unknown.swift in Sources */ = {isa = PBXBuildFile; fileRef = B674CCF1237D76C8007C7BB2 /* Unknown.swift */; };
+		B674CCF6237D7DC3007C7BB2 /* Searches.swift in Sources */ = {isa = PBXBuildFile; fileRef = B674CCED237AA56D007C7BB2 /* Searches.swift */; };
 		B6BBA7AE23743DC100DF94EE /* Sorting Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BBA7AD23743DC100DF94EE /* Sorting Test.swift */; };
 		B6BBA7B023743F1600DF94EE /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BBA7AF23743F1600DF94EE /* Sorting.swift */; };
 		B6BBA7B123743F4D00DF94EE /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BBA7AF23743F1600DF94EE /* Sorting.swift */; };
@@ -206,7 +208,9 @@
 				B6BBA7B123743F4D00DF94EE /* Sorting.swift in Sources */,
 				B6CF373123719244002115D9 /* Standard_Algorithmstests.swift in Sources */,
 				B674CCF0237AA66A007C7BB2 /* Search Test.swift in Sources */,
+				B674CCF6237D7DC3007C7BB2 /* Searches.swift in Sources */,
 				B6BBA7AE23743DC100DF94EE /* Sorting Test.swift in Sources */,
+				B674CCF5237D7DBE007C7BB2 /* Unknown.swift in Sources */,
 				B674CCF4237D76E0007C7BB2 /* Unknown Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
